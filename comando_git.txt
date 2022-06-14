@@ -1,0 +1,11 @@
+git init
+git config --global user.name "usuario github"
+git config --global user.email "email github"
+git config --list
+git config --global color.ui.true
+git status
+git add nombre_archivo
+git commit -m "comentario"
+git branch -M main
+git remote add origin enlace de github sobre el repositorio remoto
+git push -u origin main
