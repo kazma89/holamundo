@@ -9,3 +9,12 @@ git commit -m "comentario"
 git branch -M main
 git remote add origin enlace de github sobre el repositorio remoto
 git push -u origin main
+git log #muestra el registro de los commit hechos
+git diff hash #muestra la información de los cambios hechos en el hash
+git branch --list 
+git branch nombre
+git checkout nombre #cambia la rama en la que se esta trabajando
+git fetch #se actualiza la rama main local, se debe hacer esto en la rama principal antes del merge
+git merge nombre_branch #integra todos los cambios hechos en la rama nombrada a la main, se debe estar en la main y hacer el paso anterior
+git remote -v #muestra el repositorio remoto activo
+git remote set-url origin repositorio #cambia el repositorio en donde se esta trabajando
