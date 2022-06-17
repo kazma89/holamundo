@@ -18,3 +18,5 @@ git fetch #se actualiza la rama main local, se debe hacer esto en la rama princi
 git merge nombre_branch #integra todos los cambios hechos en la rama nombrada a la main, se debe estar en la main y hacer el paso anterior
 git remote -v #muestra el repositorio remoto activo
 git remote set-url origin repositorio #cambia el repositorio en donde se esta trabajando
+git remote rm origin #elimina el repositorio seteado en git.
+git pull origin main --allow-unrelated-histories #hace un pull del contenido del repositorio remoto. Esto es util cuando se crea un repo con el README.txt
